@@ -228,16 +228,6 @@ code {
   color: var(--navy);
 }
 
-.btn-light {
-  background: var(--white);
-  color: var(--navy);
-}
-
-.btn-light:hover {
-  background: var(--blue-soft);
-  color: var(--navy);
-}
-
 
 /* ---------- セクション共通 ---------- */
 .section {
@@ -645,6 +635,10 @@ td {
   font-size: 15px;
 }
 
+.scope-after {
+  margin: 16px 0 0;
+}
+
 .scope-sub {
   margin-top: 20px;
   padding-top: 20px;
@@ -656,10 +650,15 @@ td {
   margin-top: 24px;
 }
 
-.contact-inner .contact-sub {
+.cta-note {
   margin-top: 12px;
   font-size: 13px;
-  color: #c3d0e0;
+  line-height: 1.8;
+  color: var(--muted);
+}
+
+.scope .plain-list li {
+  font-size: 15px;
 }
 
 .flow {
@@ -699,28 +698,6 @@ td {
   font-size: 14px;
   line-height: 1.8;
   color: var(--muted);
-}
-
-/* ---------- Contact ---------- */
-.section-navy {
-  background: var(--navy);
-  color: var(--white);
-}
-
-.section-navy h2 {
-  color: var(--white);
-}
-
-.section-navy .section-label {
-  color: #a9c8f5;
-}
-
-.contact-inner p:not(.section-label) {
-  margin-top: 20px;
-}
-
-.contact-inner .btn {
-  margin-top: 32px;
 }
 
 /* ---------- フッター ---------- */
