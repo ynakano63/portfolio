@@ -19,7 +19,6 @@
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#service">Service</a></li>
-          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -80,7 +79,7 @@
           </li>
           <li>
             <h4>ご自身で使える形で渡す</h4>
-            <p>スクリプトだけでなく、簡易操作マニュアルを付けて納品します。</p>
+            <p>スクリプトだけでなく、簡易実行マニュアルを付けて納品します。</p>
           </li>
         </ol>
       </div>
@@ -239,13 +238,14 @@
             <dl class="spec-list">
               <div><dt>対象</dt><dd>ルールが明確な定型業務 1件</dd></div>
               <div><dt>納期の目安</dt><dd>10営業日</dd></div>
-              <div><dt>無料修正</dt><dd>1回</dd></div>
-              <div><dt>納品物</dt><dd>Pythonスクリプト、処理済みデータ、簡易操作マニュアル</dd></div>
+              <div><dt>無料修正</dt><dd>軽微な修正 1回</dd></div>
+              <div><dt>標準の納品物</dt><dd>Pythonスクリプト、簡易実行マニュアル</dd></div>
               <div><dt>想定作業時間</dt><dd>ヒアリングから納品まで合計5〜8時間程度</dd></div>
             </dl>
-            <p class="note">基本料金の範囲を超える場合は、着手前に追加のお見積もりをします。</p>
-            <!-- 出品ページURL（Service と Contact の2か所にあります） -->
+            <p class="note">対応範囲外の作業が必要な場合は、着手前に別途お見積もりをします。</p>
+            <!-- 出品ページURL（リベシティの掲載ページ。リンクはこの1か所のみ） -->
             <a class="btn btn-primary btn-block" href="https://skill.libecity.com/services/38629?utm_source=web_pc&amp;utm_medium=tweet&amp;ga_click=tweet" target="_blank" rel="noopener">出品ページで詳細を見る<span class="visually-hidden">（新しいタブで開きます）</span></a>
+            <p class="cta-note">ご相談・ご依頼は、リベシティ（会員限定）の出品ページで受け付けています。このサイトに問い合わせフォームはありません。</p>
           </div>
 
           <div class="scope">
@@ -276,37 +276,47 @@
               </ul>
             </div>
             <div class="scope-block">
+              <h3>スクリプトの実行環境について</h3>
+              <p class="scope-text">納品するのはPythonスクリプトです。実行には、処理内容に応じてPython本体や追加ライブラリが必要になる場合があります。</p>
+              <ul class="plain-list">
+                <li>ご依頼の前に、ご利用のPCのOS、Pythonの有無、社内PCの実行制限（ソフトのインストール可否など）を確認します。</li>
+                <li>Python環境の準備が難しい場合も、ご依頼の前に実行方法をご相談いただけます。</li>
+                <li>Windows向けの実行ファイル（.exe）化は、標準の納品物に含みません。対応できるかどうかを個別に確認したうえでの追加対応となります。</li>
+              </ul>
+            </div>
+            <div class="scope-block">
+              <h3>納品物とデータの扱いについて</h3>
+              <p class="scope-text">標準の納品物は、Pythonスクリプトと簡易実行マニュアルです。お客様がご自身のデータで処理を再実行できることを重視しています。</p>
+              <ul class="plain-list">
+                <li>マニュアルには、必要な実行環境、入力ファイル、出力先、実行方法を記載します。</li>
+                <li>必要に応じて、サンプルの入出力ファイルを提供できます（標準の納品物には含みません）。提供する場合は、お客様の実データではなく、動作確認用のダミーデータで作成します。</li>
+                <li>お客様の実データを処理するご依頼では、納品物、処理結果、データの受け渡し方法を、ご依頼の前に個別に合意します。</li>
+              </ul>
+            </div>
+            <div class="scope-block">
               <h3>基本料金の対象外となるもの</h3>
+              <p class="scope-text">以下は基本料金に含みません。対応できるかどうかを確認し、対応する場合は別途お見積もりをします。</p>
               <ul class="cross-list">
                 <li>手順や判断基準が決まっておらず、その都度人の判断が必要な業務</li>
-                <li>複数の業務をまとめた自動化（2件目以降は別途お見積もり）</li>
+                <li>複数の業務をまとめた自動化（2件目以降）</li>
                 <li>Webアプリや画面付きのシステム、常時稼働する仕組みの開発</li>
+                <li>Windows向けの実行ファイル（.exe）化</li>
+                <li>Python本体やライブラリの環境構築、お客様のPCへのインストール作業</li>
                 <li>納品後の継続的な運用・保守</li>
               </ul>
+              <p class="scope-text scope-after">社内セキュリティ設定の変更は、追加対応としてもお引き受けしていません。</p>
             </div>
           </div>
         </div>
 
         <h3 class="sub-heading">ご依頼の流れ</h3>
         <ol class="flow">
-          <li><span class="flow-num" aria-hidden="true">1</span><h4>ご相談</h4><p>現在の作業手順と、サンプルのファイルを確認します。</p></li>
-          <li><span class="flow-num" aria-hidden="true">2</span><h4>範囲の確認</h4><p>対応範囲と納期をお伝えします。追加費用がある場合はここでお見積もりします。</p></li>
-          <li><span class="flow-num" aria-hidden="true">3</span><h4>制作</h4><p>スクリプトを作成し、お預かりしたデータで動作を確認します。</p></li>
-          <li><span class="flow-num" aria-hidden="true">4</span><h4>納品・修正</h4><p>スクリプト、処理済みデータ、簡易操作マニュアルを納品します。無料修正は1回です。</p></li>
+          <li><span class="flow-num" aria-hidden="true">1</span><h4>ご相談</h4><p>現在の作業手順とサンプルのファイル、ご利用のPC環境を確認します。</p></li>
+          <li><span class="flow-num" aria-hidden="true">2</span><h4>範囲の確認</h4><p>対応範囲、納期、データの扱いを確認します。追加費用がある場合はここでお見積もりします。</p></li>
+          <li><span class="flow-num" aria-hidden="true">3</span><h4>制作</h4><p>スクリプトを作成し、事前に合意したデータで動作を確認します。</p></li>
+          <li><span class="flow-num" aria-hidden="true">4</span><h4>納品・修正</h4><p>スクリプトと簡易実行マニュアルを納品します。軽微な修正は1回まで無料で対応します。</p></li>
         </ol>
         <p class="note">機密情報や個人情報を含むデータは、ダミーの値に置き換えたサンプルでのご相談をおすすめします。</p>
-      </div>
-    </section>
-
-    <!-- ============ Contact ============ -->
-    <section class="section section-navy" id="contact">
-      <div class="container contact-inner">
-        <p class="section-label">Contact</p>
-        <h2>ご相談・ご依頼</h2>
-        <p>ご相談とご依頼は、サービス出品ページで受け付けています。<br class="pc-only">このサイトには問い合わせフォームを設置していません。</p>
-        <!-- 出品ページURL（Service と Contact の2か所にあります） -->
-        <a class="btn btn-light" href="https://skill.libecity.com/services/38629?utm_source=web_pc&amp;utm_medium=tweet&amp;ga_click=tweet" target="_blank" rel="noopener">サービス出品ページを見る<span class="visually-hidden">（新しいタブで開きます）</span></a>
-        <p class="contact-sub">出品ページが新しいタブで開きます。</p>
       </div>
     </section>
 
